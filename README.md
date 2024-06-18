@@ -8,7 +8,7 @@ design, TSQL coding and extensibility. A lesson in how to go from a basic script
 
 This Fabric DW script just shows exec requests, sessions and SQL Statements. When coming from SqlDbEngine this adds some familiarity to monitoring.
 
-Maybe in the future we will use KQL and Log Analytics, but hopefully we gte more DMVs to epand this type of solution.
+Maybe in the future we will use KQL and Log Analytics, but hopefully we get more DMVs to expand this type of solution.
 
 Features:
 - long runing queries
