@@ -43,5 +43,6 @@ Limitations:
 
 
 Sample call below showing a long running query causing blocking
-![image](https://github.com/ProdataSQL/FabricWhoIsActive/assets/19823837/d2b864f5-e66f-49b7-92e6-ad49e7569557)
+![image](https://github.com/ProdataSQL/FabricWhoIsActive/assets/19823837/9aaed6f8-8940-41be-995e-371bf3ab8d7b)
+
 
