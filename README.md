@@ -16,12 +16,14 @@ Features:
 - reads and writes
 - blocking chains
 - some wait stat info
+- *new* shows percent complete and eta for queries based on last run in QueryInsights history
 
 Limitations:
 - We dont yet have query plans in Fabric DW
 - Wait stats are pretty generic
 - We dont get CPU in DMVs
 - No XML or ring buffer support in Fabric
+- QueryInsights data is only from current DB, not system wide.
 - The following DMVS we use on SqlDBEngine are not supported on Fabric
   - sys.dm_os_sys_info
   - sys.dm_os_workers
@@ -41,4 +43,5 @@ Limitations:
 
 
 Sample call below showing a long running query causing blocking
-  ![image](https://github.com/ProdataSQL/Fabric/assets/19823837/fda392ae-1766-4617-95da-4ba71ecf292c)
+![image](https://github.com/ProdataSQL/FabricWhoIsActive/assets/19823837/d2b864f5-e66f-49b7-92e6-ad49e7569557)
+
